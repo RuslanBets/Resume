@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,700&display=swap');
+
+* {
+  margin: 0;
+}
+ .wrapper {
+   max-width: 1000px;
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 300px;
+   box-shadow:0 0 10px black;
+   display: flex;
+ }
+
+ a {
+   text-decoration: none;
+   cursor: pointer;
+   color: black;
+ }
+
+ .leftBlock {
+   background-color: #2d2b2b;
+   max-width: 30%
+ }
+
+ .static {
+   width: 320px;
+   height: 320px;
+   object-fit: cover;
+   position: relative;
+   left: 30px;
+   top: 60px;
+ }
+
+ .item {
+   position: relative;
+   width: 350px;
+   min-height: 50px;
+   background-color: tomato;
+   margin-top:200px;
+   color: whitesmoke;
+   text-align: right;
+   line-height: 50px;
+   font-size: 25px;
+   padding-right: 20px;
+   box-sizing: border-box;
+ }
+
+ .item2 {
+   margin-top: 100px;
+ }
+
+ .rigthBlock {
+   background-color: white;
+   max-width: 70%
+ }
+
+ .miniWrapper {
+   max-width: 70%;
+   margin: auto;
+   /* border: 1px solid red */
+ }
+
+ .name {
+   margin-top: 150px;
+   font-size: 50px;
+   color: tomato;
+   letter-spacing: 10px;
+   font-weight: 600;
+ }
+
+ .job {
+   margin-top: 30px;
+   font-size: 30px;
+   letter-spacing: 10px;
+   font-weight: 600;
+ }
+
+ .contacts {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 180px;
+ }
+
+ h3 {
+   color: tomato;
+   margin-bottom: 10px;
+   margin-top: 10px;
+ }
+
+ .education {
+   margin-top: 62px;
+ }
+
+ .skils {
+   display: flex;
+   margin-top: 86px;
+ }
+ .skilsLeft {
+   width: 50%
+ }
+
+ .skilsRigth {
+   width: 50%
+ }
+
+ .line {
+   max-width: 200px;
+   min-height: 20px;
+   border: 1px solid red;
+ }
+
+  .proc1 {
+   max-width: 80%;
+   height: 20px;
+   background-color: tomato;
+ }
+ .proc2 {
+  max-width: 50%;
+  min-height: 20px;
+  background-color: tomato;
+}
+.proc3 {
+  max-width: 80%;
+  min-height: 20px;
+  background-color: tomato;
+}
+.proc4 {
+  max-width: 20%;
+  min-height: 20px;
+  background-color: tomato;
+}
+.proc5 {
+  max-width: 50%;
+  min-height: 20px;
+  background-color: tomato;
+}
+.proc6 {
+  max-width: 70%;
+  min-height: 20px;
+  background-color: tomato;
+}
+
+.experience {
+  margin-top: 70px;
+}
+
+.certificates {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sertificat {
+  position: relative;
+  max-width: 320px;
+  min-height: 420px;
+  object-fit: cover;
+  margin-top: 30px;
+  margin: auto;
+}
+
+
+.bigPhoto {
+  position: fixed;
+  width: 600px;
+  min-height: 600px;
+  margin: auto;
+  object-fit: cover;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  left: 500px;
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
+.item6 {
+  margin-top: 325px;
+}
+
+.socials {
+  margin-top: 78px;
+  margin-right: 30px;
+}
+
+
+.socials a {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    width: 100%
+  }
+
+  .name {
+    font-size: 38px;
+    margin-top: 390px;
+    margin-bottom: 20px;
+  }
+  .item1  {
+    margin-top: 300px;
+  }
+
+  .contacts {
+    margin-top: 65px;
+    font-size: 11px;
+  }
+
+  .contacts h3 {
+    margin-right: 5px;
+  }
+
+  .education {
+    font-size: 11px;
+    margin-top: 77px;
+  }
+
+  .skils {
+    font-size: 11px;
+  }
+
+  .skils .box1 {
+    margin-right: 10px;
+  }
+  .skils .box2 {
+    margin-right: 5px;
+  }
+  .skils .box3 {
+    margin-right: 10px;
+  }
+
+  .experience {
+    font-size: 11px;
+  }
+
+  .sertificat {
+    width: 210px;
+    min-height: 300px;
+    object-fit: cover;
+    top: 74px;
+    margin-bottom: 100px;
+  }
+
+  .socials {
+    font-size: 11px;
+    margin-bottom: 13px;
+  }
+}
+
+

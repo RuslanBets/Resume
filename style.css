@@ -191,6 +191,27 @@
   margin-right: 20px;
 }
 
+.wrapper img {
+  cursor: zoom-in;
+}
+
+.glass {
+  position: fixed;
+  inset: 0;
+  background-color: #0008;
+  display: flex;
+  cursor: zoom-out;
+}
+
+.glass > img {
+  max-width: 95%;
+  max-height: 95%;
+  margin: auto;
+}
+
+[hidden] {
+  display: none !important;
+}
 
 @media screen and (max-width: 1000px) {
   .wrapper {

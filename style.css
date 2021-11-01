@@ -207,7 +207,9 @@
   max-width: 95%;
   max-height: 95%;
   margin: auto;
+  transition: .4s;
 }
+
 
 [hidden] {
   display: none !important;
